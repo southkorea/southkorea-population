@@ -5,23 +5,22 @@ This repo hosts South Korean population data from the 2010 Census in CSV format.
 
 ## Description
 
-### Population data 
-The census data was gathered in 2010.
+### Data 
 South Korean administrative divisions are consisted of three levels:
 
-- [Provincial level (시도)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Provincial_level_divisions): Special City(특별시), Metropolitan City(광역시), Province(도), Special Self-governing Province(특별자치도), Special Self-governing City(특별자치시)
-- [Municipal level (시군구)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Municipal_level_divisions): Si (시, city), Gun (군, county), Gu (구, district)
-- [Submunicipal level (읍면동)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Submunicipal_level_divisions): Eup (읍, town), Myeon (면, township), Dong (동, neighborhood), Ri (리, village)
+- [Provinces (시도)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Provincial_level_divisions): Special City(특별시), Metropolitan City(광역시), Province(도), Special Self-governing Province(특별자치도), Special Self-governing City(특별자치시)
+- [Municipalities (시군구)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Municipal_level_divisions): Si (시, city), Gun (군, county), Gu (구, district)
+- [Submunicipalities (읍면동)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Submunicipal_level_divisions): Eup (읍, town), Myeon (면, township), Dong (동, neighborhood), Ri (리, village)
+
+#### 2010
+Raw data in `2010/*.csv` were gathered in 2010.
+These were converted to UTF-8 by the names `2010/*_utf8.csv`.
 
 ### Codebook
 This codebook was written in April, 2010.
 
-1. `codenames-20100401.csv`: Raw data
-1. `codenames-20100401-06-translation.csv` : Regional names' English, Chinese translation
-
-## Development notes
-Raw data are in `2010/*.csv`.
-Data converted to UTF-8 are in `2010/*_utf8.csv`.
+1. `codenames-20100401.xls`: Raw data
+1. `codenames-20100401-06-translation.*` : Regional names' English, Chinese translation in `csv`, `json` formats.
 
 ## Copyright and License
 
