@@ -13,8 +13,8 @@ South Korean administrative divisions are consisted of three levels:
 - [Submunicipalities (읍면동)](http://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea#Submunicipal_level_divisions): Eup (읍, town), Myeon (면, township), Dong (동, neighborhood), Ri (리, village)
 
 #### 2010
-Raw data in `2010/*.csv` were gathered in 2010.
-These were converted to UTF-8 by the names `2010/*_utf8.csv`.
+Raw data in `data/2010/*.csv` were gathered in 2010.
+These were converted to UTF-8 by the names `data/2010/*_utf8.csv`.
 
 ### Codebook
 This codebook was written in April, 2010.
